@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeSpot</title>
+<!------------------------------------------Links--------------------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style.css">
+<script type="text/javascript"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+<body>
+<!----------------------------------------NavBar-------------------------------------------------------->
+<section class="section-1">
+    <li class="search-icon">
+        <input type="search" placeholder="Search">
+        <label class="icon">
+            <span class="fas fa-search"></span>
+        </label>
+    </li>
+        
+    <div class="block">
+            <ul class="navbar-right">
+                <li>
+                    <i class="fas fa-sign-in-alt"></i><a href="#"><span>Login</span></a>
+                </li>
+                <li>
+                    <i class="fas fa-lock-open"></i><a href="#"><span >Register</span></a>
+                </li>
+            </ul>
+    </div>
+</section>
+<!----------------------------------------------Header--------------------------------------------------->
+<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto">
+            <a href="#index.html" class="logo-title">BIKE</a>SPOT
+        </h1>
+        
+
+            <nav id="navbar" class="navbar order-last order-lg-0" >
+                <ul>
+                    <li><a href="#home" class="nav-link scrollto active">HOME</a></li>
+                    <li><a href="#search" class="nav-link scrollto">SEARCH</a></li>
+                    <li><a href="#compare" class="nav-link scrollto">COMPARE</a></li>
+                    <li><a href="#reviews" class="nav-link scrollto">REVIEWS</a></li>
+                    <li><a href="#about" class="nav-link scrollto">ABOUT US</a></li>
+                    <li><a href="#services" class="nav-link scrollto">SERVICES</a></li>
+                    <li><a href="#pages" class="nav-link scrollto">PAGES</a></li>
+                    <li><a href="#users" class="nav-link scrollto">USERS</a></li>
+                </ul>
+            </nav>
+                <a href="#" class="sell-btn scrollto">
+                    <span class="d-none d-md-inline">
+                        SELL YOUR BIKE
+                    </span>
+                </a>
+    </div>
+</header>
+
+<!----------------------------------------------Home------------------------------------------------------>
+<section class="home" id="home">
+    <div class="text">
+        <h1>Find What Are You Looking For?</h1>
+        <p>Over 90,000 Latest Bikes In Databank</p>
+    </div>
+
+    <div class="form-container" id="search" data-aos="fade-in">
+    >
+        <form action="">
+            <div class="input-box">
+                <input type="search" name="" id="" placeholder="Location">
+            </div>
+            <div class="input-box">
+                <input type="search" name="" id="" placeholder="Choose Bike">
+            </div>
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </div>
+</section>
+
+<!-------------------------------------Login Form------------------------------------------------>
+<div class="login-form-container">
+    <span class="fas fa-times" id="close-login-form"></span>
+
+
+    <form action="">
+        <h3>user login</h3>
+        <input type="email" name="" id="" placeholder="email" class="box">
+        <input type="password" name="" id="" placeholder="password" class="box">
+        <p>Forget Password <a href="#"> Click Here</a></p>
+        <input type="submit" value="Login" class="btn">
+        <p>Or Login With</p>
+
+        <div class="buttons">
+            <a href="#" class="btn">Google</a>
+            <a href="#" class="btn">Facebook</a>
+        </div>
+        <p>Don't Have An Account <a href="#">Create One</a></p>
+    </form>
+</div>
+
+<!-------------------------------------Search-------------------------------------------------------------------->
+<section class="search" id="compare">
+    <div class="search-container"  data-aos="fade-left">
+        <div class="search-box">
+            <i class="fas fa-motorcycle"></i>
+            <h2>Looking For A Bike</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem illum quam eos temporibus, repellat quod doloribus tempore similique distinctio, unde iusto sed consectetur voluptatibus ut neque quis nostrum itaque autem!</p>
+        </div>
+        
+        <div class="search-box">
+            <i class="fas fa-search-dollar"></i>
+            <h2>Sell Your Bike</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem illum quam eos temporibus, repellat quod doloribus tempore similique distinctio, unde iusto sed consectetur voluptatibus ut neque quis nostrum itaque autem!</p>
+        </div>
+    </div>
+</section>
+
+<!-----------------------------------------Latest Bikes------------------------------------------------>
+<div class="title" id="services" data-aos="fade-down">
+    <div class="title-1">Latest Featured</div>
+    <a href="#" class="title-2">&nbsp Bikes</a>
+</div>
+
+<div class="main">
+    <ul class="cards">
+      <li class="cards_item"> 
+        <div class="card" data-aos="fade-right">
+          <div class="card_image"><img src="./img/bike-1.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">GetBest 1628</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <h3 class="card_price">$567892</h3>
+            <button class="btn card_btn">View More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card" data-aos="fade-in">
+          <div class="card_image"><img src="./img/bike-2.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Honda 574</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <h3 class="card_price">$289542</h3>
+            <button class="btn card_btn">View More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card" data-aos="fade-left">
+          <div class="card_image"><img src="./img/bike-3.png"></div>
+          <div class="card_content">
+            <h2 class="card_title">Royal Enfield</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <h3 class="card_price">$976528</h3>
+            <button class="btn card_btn">View More</button>
+          </div>
+        </div>
+      </li>
+     
+    </ul>
+  </div>
+
+  <!-----------------------------------------Counter---------------------------------------------------->
+  <div class="wrapper" data-aos="fade-right">
+    <div class="counter-up">
+        <div class="counter-content">
+            <div class="counter-box">
+                <div class="counter-icon">
+                    <i class="fas fa-motorcycle"></i>
+                </div>
+                <div class="counter">1238</div>
+                <div class="counter-text">Total</div>
+                <span class="counter-text-2">Bikes</span>
+            </div>
+
+            <div class="counter-box">
+                <div class="counter-icon">
+                    <i class="far fa-id-badge"></i>
+                </div>
+                <div class="counter">820</div>
+                <div class="counter-text">Verified</div>
+                <span class="counter-text-2">Dealers</span>
+            </div>
+
+            <div class="counter-box">
+                <div class="counter-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="counter">1024</div>
+                <div class="counter-text">Active</div>
+                <span class="counter-text-2">Users</span>
+            </div>
+
+            <div class="counter-box">
+                <div class="counter-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="counter">75</div>
+                <div class="counter-text">Featured</div>
+                <span class="counter-text-2">Ads</span>
+            </div>
+
+        </div>
+    </div>
+</div>  
+
+
+<!-----------------------------------Latest Ads------------------------------------------------->
+<div class="title" data-aos="fade-down">
+    <div class="title-1">Latest Trending</div>
+    <a href="#" class="title-2">&nbsp Ads</a>
+</div>
+
+<div class="blog-card" data-aos="fade-left">
+    <input class="input-radio" type="radio" name="select" id="tap-1" checked>
+    <input class="input-radio" type="radio" name="select" id="tap-2">
+    <input class="input-radio" type="radio" name="select" id="tap-3">
+    <input class="input-radio" type="checkbox" name="" id="tapImg">
+        <div class="sliders">
+            <label for="tap-1" class="tap tap-1"></label>
+            <label for="tap-2" class="tap tap-2"></label>
+            <label for="tap-3" class="tap tap-3"></label>
+        </div>
+
+    <div class="inner-part" >
+        <label for="tapImg" class="img">
+            <img class="img-1" src="./img/ad=1.png" alt="">
+        </label>
+        <div class="ad-content content-1">
+            <div class="ad-title">Honda CBR 600</div>
+            <i class="fas fa-map-marker-alt"></i> <span>New Jersey, United States </span> 
+            <i class="far fa-clock"></i> <span>July 28 2017</span>
+            <div class="ad-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem corporis qui nam voluptate laboriosam vel. </div>
+            <div class="ad-text-2">Ad-type: <span>Sell</span></div>
+            <div class="ad-text-2">Condition: <span>New</span></div>
+            <div class="ad-text-2">Visits: <span>2000</span></div>
+            <div class="ad-price">$3,4567</div>
+            <button>View Ad</button>
+        </div>
+    </div>
+
+    <div class="inner-part">
+        <label for="tapImg" class="img">
+            <img class="img-2" src="./img/ad-2.webp" alt="">
+        </label>
+        <div class="ad-content content-2">
+            <div class="ad-title">Kawasaki Ninja Bike</div>
+            <i class="fas fa-map-marker-alt"></i> <span>New Jersey, United States </span> 
+            <i class="far fa-clock"></i> <span>July 28 2017</span>
+            <div class="ad-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem corporis qui nam voluptate laboriosam vel. </div>
+            <div class="ad-text-2">Ad-type: <span>Sell</span></div>
+            <div class="ad-text-2">Condition: <span>New</span></div>
+            <div class="ad-text-2">Visits: <span>2000</span></div>
+            <div class="ad-price">$3,4567</div>
+            <button >View Ad</button>
+        </div>
+    </div>
+
+    <div class="inner-part">
+        <label for="tapImg" class="img">
+            <img class="img-3" src="./img/ad-3.jpg" alt="">
+        </label>
+        <div class="ad-content content-3">
+            <div class="ad-title">Suzuki CBR 600</div>
+            <i class="fas fa-map-marker-alt"></i> <span>New Jersey, United States </span> 
+            <i class="far fa-clock"></i> <span>July 28 2017</span>
+            <div class="ad-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem corporis qui nam voluptate laboriosam vel. </div>
+            <div class="ad-text-2">Ad-type: <span>Sell</span></div>
+            <div class="ad-text-2">Condition: <span>New</span></div>
+            <div class="ad-text-2">Visits: <span>2000</span></div>
+            <div class="ad-price">$3,4567</div>
+            <button >View Ad</button>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------Blog Post---------------------------------------------------->
+<div class="title" data-aos="fade-down">
+    <div class="title-1">Latest</div>
+    <a href="#" class="title-2">&nbsp Blog Post</a>
+</div>
+
+
+<div class="blog-container" data-aos="fade-down">
+    <div class="blog-card-2">
+       <div class="blog-infos" data-aos="fade-up">
+        <span class="blog-date">August 12, 2021</span>
+        <p class="blog-text">Heavy Production Of Bikes For North America</p>
+        <a href="#" class="blog-link">Read More</a>
+      </div>
+      <img src='./img/blog-1.jpg'>
+      
+    </div>
+    
+    <div class="blog-card-2">
+      <div class="blog-infos" data-aos="fade-up">
+        <span class="blog-date">September 15, 2021</span> 
+        <p class="blog-text">Yamaha Model Could Be Offered In Rear-Wheel</p>
+        <a href="#" class="blog-link">Read More</a>
+      </div>
+      <img src='./img/blog-2.png' alt="earth from space">
+    </div>
+    
+    <div class="blog-card-2">
+      <div class="blog-infos" data-aos="fade-up">
+        <span class="blog-date">July 30, 2021</span> 
+        <p class="blog-text">Land Rover Freelancer's First</p>
+        <a href="#" class="blog-link">Read More</a>
+      </div>
+      <img src='./img/blog-3.jpg' alt="desert">
+    </div>
+  </div>
+<!-------------------------------------------Review-------------------------------------------------->
+
+<div class="rev-section" id="reviews">
+
+    <h2 class="title" data-aos="fade-down">Our Customers Love Us</h2>
+    <p class="note"data-aos="fade-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laboriosam possimus perferendis non error neque.</p>
+    
+    <div class="reviews" data-aos="fade-up">
+    
+    <div class="review">
+       <div class="head-review">
+          <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" width="250px">
+       </div>
+       <div class="body-review" data-aos="fade-left">
+          <div class="name-review">Nathan D.</div>
+          <div class="place-review">Germany</div>
+          <div class="rating">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half"></i>
+          </div>
+          <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
+       </div>
+    </div>
+    <div class="review">
+       <div class="head-review">
+          <img src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" width="250px">
+       </div>
+       <div class="body-review" data-aos="fade-in">
+          <div class="name-review">Mary Will</div>
+          <div class="place-review">Paris</div>
+          <div class="rating">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+          </div>
+          <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
+       </div>
+    </div>
+    <div class="review">
+       <div class="head-review">
+          <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" width="250px">
+       </div>
+       <div class="body-review" data-aos="fade-right">
+          <div class="name-review">Kevin Tuck</div>
+          <div class="place-review">New York</div>
+          <div class="rating">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half"></i>
+          </div>
+          <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
+       </div>
+    </div>
+    
+    </div>
+    
+    </div>
+
+<!--------------------------------------Bike inspection---------------------------------------------------->
+<section class="about" id="about">
+    
+    <div class="bike-container">
+        <div class="bike-img" data-aos="fade-right">
+            <img src="./img/bike-inspection.png" alt="">
+        </div>
+        <div class="about-text" data-aos="fade-left">
+            <span>Bike Inspection</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis at nulla dolores, non sunt provident? Itaque non impedit hic qui omnis molestiae laudantium explicabo tenetur. Placeat doloremque aperiam est autem.</p>
+            <div class="about-list">
+                <ul>
+                <li>Transmission</li>
+                <li>Tires</li>
+                <li>Suspension</li>
+                <li>Air Conditioning</li>
+            </ul>
+            <ul>
+                <li>Steering</li>
+                <li>Lighting</li>
+                <li>Exterior</li>
+                <li>Engine Diagonistics</li>
+            </ul>
+            <ul>
+                <li>Engine</li>
+                <li>Interior</li>
+                <li>Brakes</li>
+                <li>Wheel Alignment</li>
+            </ul>
+            </div>
+            <a href="#" class="sell-btn">Schedule Inspection</a>
+        </div>
+
+    </div>
+</section>
+
+<!----------------------------------------Brand Section------------------------------------------------------->
+
+<div class="brand-wrap" id="pages" data-aos="fade-down">
+    <h1>Our Popular Brands</h1>
+    <hr />
+    <div class="brand-in" data-aos="fade-up">
+        <ul>
+            <li>
+                <img src="./img/bmw-logo.png" alt="">
+                <img src="./img/bmw-logo-2.png" alt="">
+            </li>
+
+            <li>
+                <img src="./img/honda-logo.png" alt="">
+                <img src="./img/honda-logo-2.jpg" alt="">
+            </li>
+
+            <li>
+                <img src="./img/ducati-logo.jpg" alt="">
+                <img src="./img/ducati-2.png" alt="">
+            </li>
+
+            <li>
+                <img src="./img/Kawasaki-Logo.png" alt="">
+                <img src="./img/kawasaki.jpg" alt="">
+            </li>
+
+            <li>
+                <img src="./img/ktm-logo.png" alt="">
+                <img src="./img/ktm.jpg" alt="">
+            </li>
+
+            <li>
+                <img src="./img/suzuki-logo.png" alt="">
+                <img src="./img/suzuki.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!------------------------------------------------CarSpot------------------------------------------------------->
+<section class="about" id="users">
+    
+    <div class="carspot-container" data-aos="fade-right">
+        <div class="carspot-img">
+            <img src="./img/car.png" alt="">
+        </div>
+        <div class="carspot-text" data-aos="fade-left">
+            <h1>GET OUR APP FOR YOUR MOBILE</h1> <br>
+            <i class="far fa-hand-point-right"></i> <span class="car-point">Find nearby car in your network</span> <br>
+            <i class="far fa-hand-point-right"></i> <span class="car-point"> Browse real hirers reviews </span> <br>
+            <i class="far fa-hand-point-right"></i> <span class="car-point">Rent a car with a tap!</span> <br>
+            <i class="far fa-hand-point-right"></i> <span class="car-point">Buy a car with a tap!</span>
+        <div class="download">
+
+            <div class="download-box">
+                <i class="fab fa-windows"></i> 
+                <div class="download-content">
+                    <span>Download from</span>
+                    <h1>Window Store</h1>  
+                </div>
+            </div>
+            <div class="download-box">
+                <i class="fab fa-apple"></i>
+                <div class="download-content">
+                    <span>Download from</span>
+                    <h1>Apple Store</h1>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-------------------------------------Footer------------------------------------------------------------>
+<footer>
+    <div class="footer-row" data-aos="fade-down">
+        <div class="footer-col">
+            <img src="./img/footer-logo.png" alt="" class="footer-logo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius deserunt accusamus natus quidem maxime nostrum enim itaque facere, neque velit. Magni, incidunt delectus. Inventore, impedit enim blanditiis mollitia repudiandae illo?</p>
+        </div>
+        <div class="footer-col">
+            <h3>Office <div class="underline"><span></span></div></h3>
+            <p>ITPL Road</p>
+            <p>Whitefield, Mumbai</p>
+            <p>Maharashtra, PIN 456782, India</p>
+            <p class="email-id">info@carspot.com</p>
+            <h4>+45627910272</h4>
+        </div>
+        <div class="footer-col">
+            <h3>Links <div class="underline"><span></span></div></h3>
+            <ul>
+                <li><a href="#">Sample Page</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter <div class="underline"><span></span></div></h3>
+            <form action="">
+                <i class="far fa-envelope"></i>
+                <input type="email" placeholder="Enter Your Email Address" required>
+                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+
+            <div class="footer-wrapper">
+                <div class="footer-button">
+                    <div class="footer-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <span>Facebook</span>
+                </div>
+
+                <div class="footer-button">
+                    <div class="footer-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <span>Twitter</span>
+                </div>
+
+                <div class="footer-button">
+                    <div class="footer-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span>Instagram</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2017 - All Rights Reserved</p>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
